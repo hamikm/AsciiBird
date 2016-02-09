@@ -465,7 +465,7 @@ int main()
 		clear();
 
 		// Print "moving" floor and ceiling
-		draw_floor_and_ceiling(0, NUM_ROWS - 1, '/', 3, frame % 3);
+		draw_floor_and_ceiling(0, NUM_ROWS - 1, '/', 2, frame % 2);
 
 		// Update pipe locations and draw them.
 		draw_pipe(p1, '|', '=', '=', 0, NUM_ROWS - 1);
