@@ -6,7 +6,9 @@ Flap away, my friends.
 
 ## To run
 
-`git clone https://github.com/hamikm/AsciiBird.git`
-`cd AsciiBird`
-`make`
-`./flap`
+```
+git clone https://github.com/hamikm/AsciiBird.git
+cd AsciiBird
+make
+./flap
+```
